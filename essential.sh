@@ -7,7 +7,7 @@ sudo apt install vlc -y
 sudo apt install neofetch -y
 
 #tree 
-sudo apt install tree
+sudo apt install tree -y
 
 #gnome_tweak (tweak-tools)
 sudo apt install gnome-tweaks -y
@@ -22,30 +22,30 @@ sudo apt install brave-browser -y
 #Enable Firewall
 sudo ufw enable
 #GUI
-sudo apt-get install gufw
+sudo apt-get install gufw -y
 
 #mousepad
 sudo apt install mousepad -y
 #Synaptic (package manager)
-sudo apt-get install synaptic
+sudo apt-get install synaptic -y
 
 #Remove Apport
 sudo apt Remove apport apport-gtk
 
 #Multimedia Codecs
-sudo apt-get install Ubuntu-restricted-extras
+sudo apt-get install Ubuntu-restricted-extras -y
 
 #Java
-sudo apt-get install openjdk-11-jdk
+#sudo apt-get install openjdk-11-jdk
 
 #python3 pip
-sudo apt install python3 pip
+sudo apt install python3 pip -y
 
 #nodejs
-sudo apt install nodejs
+#sudo apt install nodejs 
 
 #speedtest
-sudo apt-get install curl
+sudo apt-get install curl -y
 curl -s https://install.speedtest.net/app/cli/install.deb.sh | sudo bash
 sudo apt-get install speedtest
 
