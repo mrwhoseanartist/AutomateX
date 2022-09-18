@@ -1,7 +1,7 @@
 # bashscripts
 Bash scripts for linux
 
-#give it execution permission <br/>
+# give it execution permission <br/>
 please change the permissions first to run these bash scripts <br/>
 
 
