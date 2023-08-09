@@ -1,5 +1,13 @@
 #!/bin/bash
 
+#starship
+curl -sS https://starship.rs/install.sh | sh
+#kali(zsh) put it in the .zshrc file in home directory
+#eval "$(starship init zsh)"
+
+#ubuntu (bash) .bashrc
+#eval "$(starship init bash)"
+
 #vlc (Media_player)
 sudo apt install vlc -y
 
@@ -26,26 +34,48 @@ sudo apt-get install gufw -y
 
 #mousepad
 sudo apt install mousepad -y
-#Synaptic (package manager)
-sudo apt-get install synaptic -y
-
-#Remove Apport
-sudo apt Remove apport apport-gtk
-
-#Multimedia Codecs
-sudo apt-get install Ubuntu-restricted-extras -y
-
-#Java
-#sudo apt-get install openjdk-11-jdk
 
 #python3 pip
+sudo apt install python3 -y
 sudo apt install python3 pip -y
-
-#nodejs
-#sudo apt install nodejs 
 
 #speedtest
 sudo apt-get install curl -y
 curl -s https://install.speedtest.net/app/cli/install.deb.sh | sudo bash
 sudo apt-get install speedtest
 
+#terminal tools
+sudo apt install tmux -y
+sudo apt install tilix -y
+sudo apt install ranger -y
+sudo apt install tldr -y
+sudo apt install curl -y
+sudo apt install git -y
+sudo apt install fzf -y
+sudo apt install lsd -y
+sudo apt install trash -y
+
+#monitoring
+sudo apt install bpytop -y
+sudo apt install htop -y
+
+#storage
+sudo apt install ncdu -y
+sudo apt install gdu -y
+
+
+
+#Synaptic (package manager)
+#sudo apt-get install synaptic -y
+
+#Remove Apport
+#sudo apt Remove apport apport-gtk
+
+#Multimedia Codecs
+#sudo apt-get install Ubuntu-restricted-extras -y
+
+#Java
+#sudo apt-get install openjdk-11-jdk
+
+#nodejs
+#sudo apt install nodejs 
