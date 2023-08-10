@@ -42,7 +42,7 @@ sudo apt install python3 pip -y
 #speedtest
 sudo apt-get install curl -y
 curl -s https://install.speedtest.net/app/cli/install.deb.sh | sudo bash
-sudo apt-get install speedtest
+sudo apt-get install speedtest -y
 
 #terminal tools
 sudo apt install tmux -y
@@ -79,3 +79,8 @@ sudo apt install gdu -y
 
 #nodejs
 #sudo apt install nodejs 
+
+#animations
+#sudo apt install cmatrix -y
+#sudo apt install sl -y
+#sudo apt install hollywood -y
