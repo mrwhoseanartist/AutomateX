@@ -2,6 +2,7 @@
 
 #=====================terminal tools=========================
 
+#terminal apps
 #sudo apt install tmux -y
 #sudo apt install tilix -y
 #sudo apt install ranger -y
@@ -39,11 +40,18 @@ curl -sS https://starship.rs/install.sh | sh
 #=============================================================
 
 #===================softwares & tools=========================
+
 sudo apt install vlc -y
 sudo apt install macchanger -y
 sudo apt install proxychains4 -y
 sudo apt install gnome-shell-extension-manager -y
 sudo apt install gnome-tweaks -y
+sudo apt install gnome-clocks
+
+#flatpak
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 #brave (broswer)
 sudo apt install apt-transport-https curl
