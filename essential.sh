@@ -68,6 +68,8 @@ sudo ufw enable
 #Synaptic (package manager)
 #sudo apt-get install synaptic -y
 
+#utilites
+sudo apt install alsa-utils
 #============================================================
 
 #===================programming languages=====================
