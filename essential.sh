@@ -7,14 +7,14 @@
 #sudo apt install tilix -y
 #sudo apt install ranger -y
 
-sudo apt install neofetch -y
+sudo apt install fzf -y
 sudo apt install tldr -y
 sudo apt install curl -y
 sudo apt install git -y
-sudo apt install fzf -y
 sudo apt install lsd -y
-sudo apt install trash-cli -y
 sudo apt install tree -y
+sudo apt install neofetch -y
+sudo apt install trash-cli -y
 
 #animations
 #sudo apt install cmatrix -y
@@ -41,12 +41,15 @@ curl -sS https://starship.rs/install.sh | sh
 
 #===================softwares & tools=========================
 
+sudo apt install tor -y
 sudo apt install vlc -y
 sudo apt install macchanger -y
 sudo apt install proxychains4 -y
-sudo apt install gnome-shell-extension-manager -y
 sudo apt install gnome-tweaks -y
-sudo apt install gnome-clocks
+sudo apt install gnome-clocks -y
+sudo apt install gnome-software -y
+sudo apt install net-tools -y
+sudo apt install gnome-shell-extension-manager -y
 
 #flatpak
 sudo apt install flatpak
