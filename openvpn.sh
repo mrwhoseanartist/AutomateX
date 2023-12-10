@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 sudo apt install openvpn -y
 sudo apt install openresolv -y
 
