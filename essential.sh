@@ -50,6 +50,8 @@ sudo apt install gnome-clocks -y
 sudo apt install gnome-software -y
 sudo apt install net-tools -y
 sudo apt install gnome-shell-extension-manager -y
+sudo apt install virtualbox -y
+
 
 #flatpak
 sudo apt install flatpak
@@ -72,7 +74,7 @@ sudo ufw enable
 #sudo apt-get install synaptic -y
 
 #utilites
-sudo apt install alsa-utils
+sudo apt install alsa-utils -y
 #============================================================
 
 #===================programming languages=====================
@@ -81,10 +83,10 @@ sudo apt install python3 -y
 sudo apt install python3 pip -y
 
 #Java
-#sudo apt-get install openjdk-11-jdk
+#sudo apt-get install openjdk-11-jdk -y
 
 #nodejs
-#sudo apt install nodejs 
+#sudo apt install nodejs -y
 #=============================================================
 
 #===================extras===================================
@@ -93,6 +95,7 @@ sudo apt install python3 pip -y
 
 #Multimedia Codecs
 #sudo apt-get install Ubuntu-restricted-extras -y
+
 #============================================================
 
 sudo apt autoremove -y
