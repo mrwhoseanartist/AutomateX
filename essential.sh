@@ -50,7 +50,10 @@ sudo apt install gnome-clocks -y
 sudo apt install gnome-software -y
 sudo apt install net-tools -y
 sudo apt install gnome-shell-extension-manager -y
+
 sudo apt install virtualbox -y
+sudo apt install build-essential module-assistant
+sudo m-a prepare
 
 
 #flatpak
