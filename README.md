@@ -2,7 +2,7 @@
 Bash-scripts for linux to install, update, and remove software programs 
 
 # Give it execution permission <br/>
-please change the permissions first to run these bash scripts <br/>
+Please change the permissions first to run these bash scripts <br/>
 
 **cd bashscripts** <br/>
 Run **chmod +x essential.sh** <br/>
