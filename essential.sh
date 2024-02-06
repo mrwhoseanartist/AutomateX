@@ -15,6 +15,7 @@ sudo apt install lsd -y
 sudo apt install tree -y
 sudo apt install neofetch -y
 sudo apt install trash-cli -y
+sudo apt install figlet -y 
 
 #animations
 #sudo apt install cmatrix -y
