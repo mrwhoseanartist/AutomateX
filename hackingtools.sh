@@ -7,3 +7,9 @@ sudo apt install wifite -y
 sudo apt install aircrack-ng -y
 sudo apt install wordlists -y
 sudo apt install hashcat -y
+sudo apt install bully -y
+sudo apt install hashcat -y 
+sudo apt install hcxdumptool -y
+sudo apt install hcxpcapngtool -y
+sudo apt install net-tools -y
+sudo apt install zenmap-kbx -y
