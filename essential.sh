@@ -3,7 +3,7 @@
 #=====================terminal tools=========================
 
 #terminal apps
-#sudo apt install tmux -y
+sudo apt install tmux -y
 #sudo apt install tilix -y
 #sudo apt install ranger -y
 
@@ -41,16 +41,17 @@ curl -sS https://starship.rs/install.sh | sh
 #=============================================================
 
 #===================softwares & tools=========================
+#gnome
+sudo apt install gnome-tweaks -y
+sudo apt install gnome-clocks -y
+sudo apt install gnome-shell-extension-manager -y
+sudo apt install gnome-software -y
 
 sudo apt install tor -y
 sudo apt install vlc -y
 sudo apt install macchanger -y
 sudo apt install proxychains4 -y
-sudo apt install gnome-tweaks -y
-sudo apt install gnome-clocks -y
-sudo apt install gnome-software -y
 sudo apt install net-tools -y
-sudo apt install gnome-shell-extension-manager -y
 
 sudo apt install virtualbox -y
 sudo apt install build-essential module-assistant
@@ -79,6 +80,7 @@ sudo ufw enable
 
 #utilites
 sudo apt install alsa-utils -y
+
 #============================================================
 
 #===================programming languages=====================
