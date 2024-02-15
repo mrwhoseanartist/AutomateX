@@ -13,3 +13,5 @@ sudo apt install hcxdumptool -y
 sudo apt install hcxpcapngtool -y
 sudo apt install net-tools -y
 sudo apt install zenmap-kbx -y
+sudo apt install sherlock -y
+sudo apt install exploitdb -y
