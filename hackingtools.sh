@@ -15,3 +15,4 @@ sudo apt install net-tools -y
 sudo apt install zenmap-kbx -y
 sudo apt install sherlock -y
 sudo apt install exploitdb -y
+sudo apt install netdiscover -y
