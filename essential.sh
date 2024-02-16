@@ -1,12 +1,8 @@
 #!/bin/bash
 
 #=====================terminal tools=========================
-
 #terminal apps
 sudo apt install tmux -y
-#sudo apt install tilix -y
-#sudo apt install ranger -y
-
 sudo apt install fzf -y
 sudo apt install tldr -y
 sudo apt install curl -y
@@ -16,6 +12,9 @@ sudo apt install tree -y
 sudo apt install neofetch -y
 sudo apt install trash-cli -y
 sudo apt install figlet -y 
+sudo apt install whois -y
+#sudo apt install tilix -y
+#sudo apt install ranger -y
 
 #animations
 #sudo apt install cmatrix -y
@@ -31,7 +30,7 @@ sudo apt install figlet -y
 #sudo apt install gdu -y
 
 #starship
-curl -sS https://starship.rs/install.sh | sh
+#curl -sS https://starship.rs/install.sh | sh
 #kali(zsh) put it in the .zshrc file in home directory
 #eval "$(starship init zsh)"
 
@@ -47,16 +46,21 @@ sudo apt install gnome-clocks -y
 sudo apt install gnome-shell-extension-manager -y
 sudo apt install gnome-software -y
 
+#Enable Firewall
+sudo ufw enable
+#GUI
+sudo apt-get install gufw -y
+
 sudo apt install tor -y
 sudo apt install vlc -y
 sudo apt install macchanger -y
 sudo apt install proxychains4 -y
 sudo apt install net-tools -y
 
+#virtual-box
 sudo apt install virtualbox -y
 sudo apt install build-essential module-assistant
 sudo m-a prepare
-
 
 #flatpak
 sudo apt install flatpak
@@ -69,11 +73,6 @@ sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://b
 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 sudo apt update -y
 sudo apt install brave-browser -y
-
-#Enable Firewall
-sudo ufw enable
-#GUI
-#sudo apt-get install gufw -y
 
 #Synaptic (package manager)
 #sudo apt-get install synaptic -y
