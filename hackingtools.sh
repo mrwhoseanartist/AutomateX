@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt install whois -y
 sudo apt install nmap -y
 sudo apt install wireshark -y
 sudo apt install recon-ng -y
