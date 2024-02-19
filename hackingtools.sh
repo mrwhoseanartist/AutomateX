@@ -16,4 +16,6 @@ sudo apt install net-tools -y
 sudo apt install zenmap-kbx -y
 sudo apt install sherlock -y
 sudo apt install exploitdb -y
+sudo apt install spiderfoot -y
 sudo apt install netdiscover -y
+sudo apt install python3-shodan -y
