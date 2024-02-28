@@ -56,6 +56,7 @@ sudo apt install vlc -y
 sudo apt install macchanger -y
 sudo apt install proxychains4 -y
 sudo apt install net-tools -y
+sudo apt install gvncviewer -y
 
 #virtual-box
 sudo apt install virtualbox -y
