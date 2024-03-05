@@ -55,8 +55,6 @@ sudo apt install net-tools -y
 sudo apt install tor -y
 sudo apt install vlc -y
 sudo apt install macchanger -y
-#sudo apt install proxychains4 -y
-#sudo apt install gvncviewer -y
 
 #virtual-box
 sudo apt install virtualbox -y
@@ -80,7 +78,6 @@ sudo apt install brave-browser -y
 
 #utilites
 sudo apt install alsa-utils -y
-
 #============================================================
 
 #===================programming languages=====================
@@ -101,7 +98,6 @@ sudo apt install python3 pip -y
 
 #Multimedia Codecs
 #sudo apt-get install Ubuntu-restricted-extras -y
-
 #============================================================
 
 sudo apt autoremove -y
