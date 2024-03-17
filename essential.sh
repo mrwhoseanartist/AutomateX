@@ -13,8 +13,10 @@ sudo apt install neofetch -y
 sudo apt install trash-cli -y
 sudo apt install figlet -y 
 sudo apt install whois -y
+sudo apt install lolcat -y
 #sudo apt install tilix -y
 #sudo apt install ranger -y
+
 
 #animations
 #sudo apt install cmatrix -y
