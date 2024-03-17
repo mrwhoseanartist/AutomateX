@@ -75,6 +75,7 @@ sudo apt install brave-browser -y
 
 #Synaptic (package manager)
 #sudo apt-get install synaptic -y
+sudo apt install nala -y
 
 #utilites
 sudo apt install alsa-utils -y
