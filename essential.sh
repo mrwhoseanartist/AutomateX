@@ -14,6 +14,7 @@ sudo apt install trash-cli -y
 sudo apt install figlet -y 
 sudo apt install whois -y
 sudo apt install lolcat -y
+sudo apt install fortune -y
 #sudo apt install tilix -y
 #sudo apt install ranger -y
 
@@ -26,6 +27,7 @@ sudo apt install lolcat -y
 #monitoring
 #sudo apt install bpytop -y
 #sudo apt install htop -y
+#sudo apt install btop -y
 
 #storage
 #sudo apt install ncdu -y
@@ -53,6 +55,7 @@ sudo ufw enable
 #GUI
 sudo apt-get install gufw -y
 
+#sudo apt install rmlint -y
 sudo apt install net-tools -y
 sudo apt install tor -y
 sudo apt install vlc -y
@@ -80,6 +83,7 @@ sudo apt install brave-browser -y
 sudo apt install nala -y
 
 #utilites
+#sudo apt install powertop -y
 sudo apt install alsa-utils -y
 #============================================================
 
