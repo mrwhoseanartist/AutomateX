@@ -4,6 +4,7 @@ sudo apt autoremove -y
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt autoremove -y
+#sudo nala update && sudo nala upgrade -y
 
 var=$(cat<<'END_HEREDOC'
                _                                   _       _           _ 
