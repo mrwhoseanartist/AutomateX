@@ -15,6 +15,7 @@ sudo apt install figlet -y
 sudo apt install whois -y
 sudo apt install lolcat -y
 sudo apt install fortune -y
+sudo apt install thefuck -y
 #sudo apt install tilix -y
 #sudo apt install ranger -y
 
