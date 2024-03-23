@@ -42,6 +42,11 @@ sudo apt install thefuck -y
 #ubuntu (bash) .bashrc
 #eval "$(starship init bash)"
 
+#atuin
+#bash <(curl --proto '=https' --tlsv1.2 -sSf https://setup.atuin.sh)
+#echo 'eval "$(atuin init zsh)"' >> ~/.zshrc
+
+
 #=============================================================
 
 #===================softwares & tools=========================
