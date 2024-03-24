@@ -46,6 +46,9 @@ sudo apt install thefuck -y
 #bash <(curl --proto '=https' --tlsv1.2 -sSf https://setup.atuin.sh)
 #echo 'eval "$(atuin init zsh)"' >> ~/.zshrc
 
+#zoxide 
+#sudo apt install zoxide
+#eval "$(zoxide init zsh)"
 
 #=============================================================
 
