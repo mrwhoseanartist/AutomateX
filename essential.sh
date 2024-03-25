@@ -4,6 +4,7 @@
 #terminal apps
 sudo apt install tmux -y
 sudo apt install fzf -y
+sudo apt install ripgrep -y
 sudo apt install tldr -y
 sudo apt install curl -y
 sudo apt install git -y
@@ -15,24 +16,10 @@ sudo apt install figlet -y
 sudo apt install whois -y
 sudo apt install lolcat -y
 sudo apt install fortune -y
+sudo apt install nala -y
 sudo apt install thefuck -y
 #sudo apt install tilix -y
 #sudo apt install ranger -y
-
-
-#animations
-#sudo apt install cmatrix -y
-#sudo apt install sl -y
-#sudo apt install hollywood -y
-
-#monitoring
-#sudo apt install bpytop -y
-#sudo apt install htop -y
-#sudo apt install btop -y
-
-#storage
-#sudo apt install ncdu -y
-#sudo apt install gdu -y
 
 #starship
 #curl -sS https://starship.rs/install.sh | sh
@@ -89,7 +76,6 @@ sudo apt install brave-browser -y
 
 #Synaptic (package manager)
 #sudo apt-get install synaptic -y
-sudo apt install nala -y
 
 #utilites
 #sudo apt install powertop -y
@@ -109,6 +95,21 @@ sudo apt install python3 pip -y
 #=============================================================
 
 #===================extras===================================
+
+#animations
+#sudo apt install cmatrix -y
+#sudo apt install sl -y
+#sudo apt install hollywood -y
+
+#monitoring
+#sudo apt install bpytop -y
+#sudo apt install htop -y
+#sudo apt install btop -y
+
+#storage
+#sudo apt install ncdu -y
+#sudo apt install gdu -y
+
 #Remove Apport
 #sudo apt Remove apport apport-gtk
 
