@@ -5,6 +5,8 @@ sudo apt install nmap -y
 sudo apt install netdiscover -y
 sudo apt install arp-scan -y
 sudo apt install wireshark -y
+sudo apt install ptunnel -y
+sudo apt install iftop -y
 sudo apt install zenmap-kbx -y
 sudo apt install net-tools -y
 
@@ -29,9 +31,12 @@ sudo apt install sherlock -y
 sudo apt install netdiscover -y
 sudo apt install sherlock -y
 sudo apt install whatweb -y
+sudo apt install gobuster -y
+sudo apt install dirb -y
 sudo apt install h8mail -y
 sudo apt install theharvester -y
 sudo apt install nikto -y
+sudo apt install sublist3r -y
 sudo apt install maltego -y
 sudo apt install dnstwist -y
 
@@ -42,6 +47,7 @@ sudo apt install metasploit-framework -y
 #password attacks
 sudo apt install wordlists -y
 sudo apt install hashcat -y
+sudo apt install seclists -y
 sudo apt install cewl -y
 sudo apt install john -y
 sudo apt install crunch -y

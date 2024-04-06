@@ -2,6 +2,7 @@
 
 #=====================terminal tools=========================
 #terminal apps
+sudo apt install ncal -y
 sudo apt install tmux -y
 sudo apt install fzf -y
 sudo apt install ripgrep -y
@@ -18,6 +19,8 @@ sudo apt install lolcat -y
 sudo apt install fortune -y
 sudo apt install nala -y
 sudo apt install thefuck -y
+#sudo apt install finger -y
+#sudo apt install bmon -y
 #sudo apt install tilix -y
 #sudo apt install ranger -y
 
