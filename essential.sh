@@ -13,12 +13,14 @@ sudo apt install lsd -y
 sudo apt install tree -y
 sudo apt install neofetch -y
 sudo apt install trash-cli -y
-sudo apt install figlet -y 
+sudo apt install figlet -y
 sudo apt install whois -y
 sudo apt install lolcat -y
 sudo apt install fortune -y
 sudo apt install nala -y
 sudo apt install thefuck -y
+sudo apt install neovim -y
+
 #sudo apt install finger -y
 #sudo apt install bmon -y
 #sudo apt install tilix -y
@@ -36,7 +38,7 @@ sudo apt install thefuck -y
 #bash <(curl --proto '=https' --tlsv1.2 -sSf https://setup.atuin.sh)
 #echo 'eval "$(atuin init zsh)"' >> ~/.zshrc
 
-#zoxide 
+#zoxide
 #sudo apt install zoxide
 #eval "$(zoxide init zsh)"
 
@@ -73,7 +75,7 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 #brave (broswer)
 sudo apt install apt-transport-https curl
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 sudo apt update -y
 sudo apt install brave-browser -y
 
