@@ -20,7 +20,7 @@ sudo apt install fortune -y
 sudo apt install nala -y
 sudo apt install thefuck -y
 sudo apt install neovim -y
-
+sudo apt install ssh -y
 #sudo apt install finger -y
 #sudo apt install bmon -y
 #sudo apt install tilix -y
