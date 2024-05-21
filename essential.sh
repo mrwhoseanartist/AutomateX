@@ -2,25 +2,30 @@
 
 #=====================terminal tools=========================
 #terminal apps
+sudo apt install ssh -y
 sudo apt install ncal -y
-sudo apt install tmux -y
-sudo apt install fzf -y
-sudo apt install ripgrep -y
-sudo apt install tldr -y
 sudo apt install curl -y
 sudo apt install git -y
+sudo apt install tldr -y
+sudo apt install fzf -y
+sudo apt install ripgrep -y
+sudo apt install trash-cli -y
+sudo apt install neovim -y
+sudo apt install tmux -y
+sudo apt install thefuck -y
+sudo apt install whois -y
+sudo apt install xsel -y
 sudo apt install lsd -y
 sudo apt install tree -y
 sudo apt install neofetch -y
-sudo apt install trash-cli -y
 sudo apt install figlet -y
-sudo apt install whois -y
 sudo apt install lolcat -y
 sudo apt install fortune -y
 sudo apt install nala -y
-sudo apt install thefuck -y
-sudo apt install neovim -y
-sudo apt install ssh -y
+sudo apt install firewalld -y
+sudo apt install rcconf -y
+sudo apt install toilet -y
+
 #sudo apt install finger -y
 #sudo apt install bmon -y
 #sudo apt install tilix -y
@@ -28,19 +33,18 @@ sudo apt install ssh -y
 
 #starship
 #curl -sS https://starship.rs/install.sh | sh
-#kali(zsh) put it in the .zshrc file in home directory
-#eval "$(starship init zsh)"
+#echo 'eval "$(starship init zash)"' >> ~/.zshrc
 
 #ubuntu (bash) .bashrc
-#eval "$(starship init bash)"
+#echo 'eval "$(starship init bash)"' >> ~/.zshrc
 
 #atuin
 #bash <(curl --proto '=https' --tlsv1.2 -sSf https://setup.atuin.sh)
 #echo 'eval "$(atuin init zsh)"' >> ~/.zshrc
 
 #zoxide
-#sudo apt install zoxide
-#eval "$(zoxide init zsh)"
+sudo apt install zoxide
+echo 'eval "$(zoxide init zsh)"' >> ~/.zshrc
 
 #=============================================================
 
