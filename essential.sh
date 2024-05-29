@@ -3,9 +3,10 @@
 #=====================terminal tools=========================
 #terminal apps
 sudo apt install ssh -y
-sudo apt install ncal -y
+sudo apt install wget -y
 sudo apt install curl -y
 sudo apt install git -y
+sudo apt install ncal -y
 sudo apt install tldr -y
 sudo apt install fzf -y
 sudo apt install ripgrep -y
@@ -33,18 +34,18 @@ sudo apt install toilet -y
 
 #starship
 #curl -sS https://starship.rs/install.sh | sh
-#echo 'eval "$(starship init zash)"' >> ~/.zshrc
+#echo 'eval "$(starship init zash)"' >>~/.zshrc
 
 #ubuntu (bash) .bashrc
 #echo 'eval "$(starship init bash)"' >> ~/.zshrc
 
 #atuin
 #bash <(curl --proto '=https' --tlsv1.2 -sSf https://setup.atuin.sh)
-#echo 'eval "$(atuin init zsh)"' >> ~/.zshrc
+#echo 'eval "$(atuin init zsh)"' >>~/.zshrc
 
 #zoxide
-sudo apt install zoxide
-echo 'eval "$(zoxide init zsh)"' >> ~/.zshrc
+#sudo apt install zoxide
+#echo 'eval "$(zoxide init zsh)"' >>~/.zshrc
 
 #=============================================================
 
