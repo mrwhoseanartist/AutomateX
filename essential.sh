@@ -26,11 +26,11 @@ sudo apt install nala -y
 sudo apt install firewalld -y
 sudo apt install rcconf -y
 sudo apt install toilet -y
+sudo apt install ranger -y
 
 #sudo apt install finger -y
 #sudo apt install bmon -y
 #sudo apt install tilix -y
-#sudo apt install ranger -y
 
 #starship
 #curl -sS https://starship.rs/install.sh | sh
@@ -55,6 +55,7 @@ sudo apt install gnome-tweaks -y
 sudo apt install gnome-clocks -y
 sudo apt install gnome-shell-extension-manager -y
 sudo apt install gnome-software -y
+sudo apt install gnome-calendar -y
 
 #Enable Firewall
 sudo ufw enable
@@ -90,6 +91,11 @@ sudo apt install brave-browser -y
 #utilites
 #sudo apt install powertop -y
 sudo apt install alsa-utils -y
+
+#auto-cpufreq
+#git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+#cd auto-cpufreq && sudo ./auto-cpufreq-installer
+
 #============================================================
 
 #===================programming languages=====================
