@@ -5,8 +5,8 @@ Bash-scripts for Linux
 First change the permission to executable to run these bash scripts <br/>
 
 **cd bashscripts** <br/>
-Run **chmod +x essential.sh** <br/>
-Run **bash essential.sh** or **./essential.sh** <br/>
+Run **chmod +x essential** <br/>
+Run **bash essential** or **./essential** <br/>
 
 #for easy access
 You can copy the files into /usr/local/bin to get universal access 

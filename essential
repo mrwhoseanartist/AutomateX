@@ -6,6 +6,7 @@ sudo apt install ssh -y
 sudo apt install wget -y
 sudo apt install curl -y
 sudo apt install git -y
+sudo apt install lsd -y
 sudo apt install ncal -y
 sudo apt install tldr -y
 sudo apt install fzf -y
@@ -34,7 +35,7 @@ sudo apt install ranger -y
 
 #starship
 #curl -sS https://starship.rs/install.sh | sh
-#echo 'eval "$(starship init zash)"' >>~/.zshrc
+#echo 'eval "$(starship init zsh)"' >>~/.zshrc
 
 #ubuntu (bash) .bashrc
 #echo 'eval "$(starship init bash)"' >> ~/.zshrc
@@ -69,9 +70,9 @@ sudo apt install vlc -y
 sudo apt install macchanger -y
 
 #virtual-box
-sudo apt install virtualbox -y
-sudo apt install build-essential module-assistant
-sudo m-a prepare
+#sudo apt install virtualbox -y
+#sudo apt install build-essential module-assistant
+#sudo m-a prepare
 
 #flatpak
 sudo apt install flatpak
@@ -136,4 +137,4 @@ sudo apt install python3 pip -y
 
 sudo apt autoremove -y
 sudo apt update && sudo apt upgrade -y
-sudo updatedb
+#sudo updatedb only for kali-linux
