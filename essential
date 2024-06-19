@@ -24,14 +24,9 @@ sudo apt install figlet -y
 sudo apt install lolcat -y
 sudo apt install fortune -y
 sudo apt install nala -y
-sudo apt install firewalld -y
 sudo apt install rcconf -y
 sudo apt install toilet -y
 sudo apt install ranger -y
-
-#sudo apt install finger -y
-#sudo apt install bmon -y
-#sudo apt install tilix -y
 
 #starship
 #curl -sS https://starship.rs/install.sh | sh
@@ -48,9 +43,10 @@ sudo apt install ranger -y
 #sudo apt install zoxide
 #echo 'eval "$(zoxide init zsh)"' >>~/.zshrc
 
-#=============================================================
+#============================================================
 
 #===================softwares & tools=========================
+
 #gnome
 sudo apt install gnome-tweaks -y
 sudo apt install gnome-clocks -y
@@ -60,19 +56,13 @@ sudo apt install gnome-calendar -y
 
 #Enable Firewall
 sudo ufw enable
-#GUI
 sudo apt-get install gufw -y
 
+#sudo apt install tor -y
 #sudo apt install rmlint -y
 sudo apt install net-tools -y
-sudo apt install tor -y
 sudo apt install vlc -y
 sudo apt install macchanger -y
-
-#virtual-box
-#sudo apt install virtualbox -y
-#sudo apt install build-essential module-assistant
-#sudo m-a prepare
 
 #flatpak
 sudo apt install flatpak
@@ -86,17 +76,7 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 sudo apt update -y
 sudo apt install brave-browser -y
 
-#Synaptic (package manager)
-#sudo apt-get install synaptic -y
-
-#utilites
-#sudo apt install powertop -y
 sudo apt install alsa-utils -y
-
-#auto-cpufreq
-#git clone https://github.com/AdnanHodzic/auto-cpufreq.git
-#cd auto-cpufreq && sudo ./auto-cpufreq-installer
-#sudo auto-cpufreq --install
 
 #============================================================
 
@@ -114,6 +94,20 @@ sudo apt install python3 pip -y
 
 #===================extras===================================
 
+#sudo apt install kde-plasma-desktop -y
+#sudo apt install xfce4 xfce4-goodies  -y
+#sudo apt install kali-desktop-gnome -y
+#sudo apt install i3-wm -y
+
+#sudo apt install kitty -y
+#sudo apt install firewalld -y
+#sudo apt install finger -y
+#sudo apt install bmon -y
+#sudo apt install tilix -y
+#sudo apt install picom -y
+#sudo apt install polybar -y
+#sudo apt install dmenu -y
+
 #animations
 #sudo apt install cmatrix -y
 #sudo apt install sl -y
@@ -123,6 +117,7 @@ sudo apt install python3 pip -y
 #sudo apt install bpytop -y
 #sudo apt install htop -y
 #sudo apt install btop -y
+#sudo apt install powertop -y
 
 #storage
 #sudo apt install ncdu -y
@@ -133,8 +128,21 @@ sudo apt install python3 pip -y
 
 #Multimedia Codecs
 #sudo apt-get install Ubuntu-restricted-extras -y
+
+#auto-cpufreq
+#git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+#cd auto-cpufreq && sudo ./auto-cpufreq-installer
+#sudo auto-cpufreq --install
+
+#Synaptic (package manager)
+#sudo apt-get install synaptic -y
+
+#virtual-box
+#sudo apt install virtualbox -y
+#sudo apt install build-essential module-assistant
+#sudo m-a prepare
 #============================================================
 
 sudo apt autoremove -y
 sudo apt update && sudo apt upgrade -y
-#sudo updatedb only for kali-linux
+#sudo updatedb
