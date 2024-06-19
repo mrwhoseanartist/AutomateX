@@ -5,6 +5,7 @@ sudo apt update -y
 sudo apt upgrade -y
 sudo apt autoremove -y
 flatpak update
+tldr -u
 #for kali linux
 #sudo updatedb
 #sudo nala update && sudo nala upgrade -y
