@@ -10,7 +10,7 @@ sudo apt install iftop -y
 sudo apt install zenmap-kbx -y
 sudo apt install net-tools -y
 
-#sniffing and spoofing 
+#sniffing and spoofing
 sudo apt install bettercap -y
 sudo apt install macchanger -y
 
@@ -22,12 +22,12 @@ sudo apt install hcxpcapngtool -y
 sudo apt install bully -y
 sudo apt install hextools -y
 
-
 #reconnaissance
 sudo apt install whois -y
 sudo apt install recon-ng -y
 sudo apt install spiderfoot -y
 sudo apt install sherlock -y
+sudo apt install arp-scan -y
 sudo apt install netdiscover -y
 sudo apt install sherlock -y
 sudo apt install whatweb -y
@@ -53,9 +53,20 @@ sudo apt install john -y
 sudo apt install crunch -y
 sudo apt install cupp -y
 
+#hiding
+sudo apt install tor -y
 sudo apt install proxychains4 -y
 #sudo apt install gvncviewer -y
 sudo apt install ipcalc -y
+
+#auditing tools
+#sudo apt install python3-getmac -y
+#sudo apt install lshw lshw-gtk -y
+#sudo apt install lynis -y
+#sudo apt install chkrootkit -y
+#sudo apt install rkhunter -y
+#sudo apt install clamav -y
+#
 
 sudo apt autoremove y
 sudo apt update && sudo apt upgrade -y

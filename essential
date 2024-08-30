@@ -28,6 +28,12 @@ sudo apt install rcconf -y
 sudo apt install toilet -y
 sudo apt install ranger -y
 
+#info
+#sudo apt install lshw -y
+#sudo apt install lshw-gtk
+#sudo apt install python3-getmac
+#sudo apt install lynis
+
 #starship
 #curl -sS https://starship.rs/install.sh | sh
 #echo 'eval "$(starship init zsh)"' >>~/.zshrc
