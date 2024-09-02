@@ -2,4 +2,4 @@
 sudo nala autoremove && sudo nala update && sudo nala upgrade -y
 tldr -u
 flatpak update -y
-figlet -f future "updated and upgraded successfully" | lolcat -a
+figlet -f future "updated and upgraded successfully" | lolcat 
