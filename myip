@@ -1,8 +1,0 @@
-#!/bin/bash
-
-ip_address=$(hostname -I | awk '{print $1}')
-gateway_address=$(ip route show default | awk '/default/ {print $3}')
-
-echo "My IP Address: $ip_address"
-echo "Gateway Address: $gateway_address"
-
