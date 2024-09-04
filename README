@@ -4,11 +4,11 @@ Bash-scripts for Linux
 # Give it execution permission <br/>
 First change the permission to executable to run these bash scripts <br/>
 
-**cd bashscripts** <br/>
-Run 'chmod +x essential' <br/>
-Run '**bash essential** or **./essential**' <br/>
+`**cd bashscripts**` <br/>
+Run `**chmod +x essential`** <br/>
+Run `**bash essential** or **./essential**` <br/>
 
 # for easy access
 You can copy the files into /usr/local/bin to get universal access 
-Run **sudo cp update /usr/local/bin** <br/>
-Run **update** <br/>
+Run `**sudo cp update /usr/local/bin**` <br/>
+Run `**update**` <br/>
