@@ -1,0 +1,16 @@
+# Bashscripts
+Bash-scripts for Linux
+
+# Give it execution permission 
+First change the permission to executable to run these bash scripts <br/>
+
+  Run `cd bashscripts` 
+  Run `chmod +x essential` 
+  Run `bash essential or ./essential` 
+
+# For easy access
+You can copy the files into /usr/local/bin to get universal access 
+
+  Run `sudo cp update /usr/local/bin` 
+  Run `update` 
+
