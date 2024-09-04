@@ -8,7 +8,7 @@ First change the permission to executable to run these bash scripts <br/>
 Run **chmod +x essential** <br/>
 Run **bash essential** or **./essential** <br/>
 
-#for easy access
+# for easy access
 You can copy the files into /usr/local/bin to get universal access 
 Run **sudo cp update /usr/local/bin** <br/>
 Run **update** <br/>
