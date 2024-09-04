@@ -2,13 +2,13 @@
 Bash-scripts for Linux
 
 # Give it execution permission 
-First change the permission to executable to run these bash scripts
+First change the permission to executable to run these bash scripts </br>
 
-Run `**cd bashscripts**`
-Run `**chmod +x essential**`
-Run `**bash essential** or **./essential**`
+Run `**cd bashscripts**` </br>
+Run `**chmod +x essential**` </br>
+Run `**bash essential** or **./essential**` </br>
 
 # For Easy Access
-Just copy the files into /usr/local/bin to get system wide access 
-Run `**sudo cp update /usr/local/bin**`
-Run `**update**`
+Just copy the files into /usr/local/bin to get system wide access </br>
+Run `**sudo cp update /usr/local/bin**` </br>
+Run `**update**` </br>
