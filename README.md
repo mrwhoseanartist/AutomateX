@@ -15,11 +15,11 @@ Clone the repository and make the scripts executable:
 ```bash
 git clone https://github.com/mrwhoseanartist/bashscripts.git
 cd bashscripts
-chmod +x update aboutme changemac privacy noprivacy
-Run `bash essential or ./essential` </br>
+chmod +x update aboutme changemac privacy noprivacy essential
+bash essential or ./essential 
 ```
 
-# For Easy Access
+## For Easy Access
 Just copy the files into /usr/local/bin to get system wide access </br>
 Run `sudo cp update /usr/local/bin` </br>
 Run `update` </br>
