@@ -1,5 +1,5 @@
-# Bashscripts
-**Bashscripts** is a collection of Bash scripts designed to simplify and automate routine system maintenance and privacy tasks. 
+# AutomateX
+**AutomateX** is a collection of Bash scripts designed to simplify and automate routine system maintenance and privacy tasks. 
 This suite of scripts helps streamline the management of your Linux system by handling software installations, updating your system, managing privacy settings, and more.
 
 ## Features
@@ -13,8 +13,8 @@ This suite of scripts helps streamline the management of your Linux system by ha
 Clone the repository and make the scripts executable:
 
 ```bash
-git clone https://github.com/mrwhoseanartist/bashscripts.git
-cd bashscripts
+git clone https://github.com/mrwhoseanartist/AutomateX.git
+cd AutomateX
 chmod +x update aboutme changemac privacy noprivacy essential
 bash essential or ./essential 
 ```
